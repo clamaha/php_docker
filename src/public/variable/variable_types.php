@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Variables</title>
-</head>
-<body>
+<title>Variables</title>
+<h1>Variables</h1>
+<style>
+    a {text-decoration:none; font-weight:700; font-size:20px; color:darkgrey;}
+</style>
 
 <?php
   $firstName = "Clara";
@@ -31,6 +30,5 @@ if ($hungry){
     echo "I am not hungry";
 }
     ?></p>
-
-</body>
-</html>
+    <br>
+<a href="/index.php">➜ Back to homepage</a>
