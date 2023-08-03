@@ -2,6 +2,7 @@
 
 ## What is this ?
 Learning PHP, Docker and MySQL using a template repository.
+
 Its current version ships with PHP 8.1, Mysql 8.0, phpMyAdmin and an Nginx server running on Alpine.
 All of it orchestrated and run by Docker Compose.
 
