@@ -1,9 +1,18 @@
 <?php
+
 declare(strict_types=1);
 ?>
 
 <style>
-  a {text-decoration:none; color:black; line-height:2em;}
+    ol {
+        font-weight: 700;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        line-height: 2.5em;
+    }
 </style>
 <h1>PHP exercises</h1>
 
