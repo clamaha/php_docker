@@ -14,6 +14,7 @@ declare(strict_types=1);
         line-height: 2.5em;
     }
 </style>
+<title>PHP exercises</title>
 <h1>PHP exercises</h1>
 
 <ol>
@@ -31,5 +32,11 @@ declare(strict_types=1);
     </li>
     <li>
         <a onMouseOver="style.color='darkgrey'" onMouseOut="style.color='black'" href="/variable/functions.php">Functions</a>
+    </li>
+    <li>
+        <a onMouseOver="style.color='darkgrey'" onMouseOut="style.color='black'" href="/variable/forms.php">Forms</a>
+    </li>
+    <li>
+        <a onMouseOver="style.color='darkgrey'" onMouseOut="style.color='black'" href="/variable/get_post.php">GET - POST</a>
     </li>
 </ol>
