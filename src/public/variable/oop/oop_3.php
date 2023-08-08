@@ -4,8 +4,8 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 ?>
 
-<title>OOP - 1</title>
-<h1>OOP - 1</h1>
+<title>OOP - 3</title>
+<h1>OOP</h1>
 <style>
     a {
         text-decoration: none;
@@ -14,16 +14,14 @@ error_reporting(E_ALL);
         color: darkgrey;
     }
 </style>
-
-<h4>Exercise 1 - classes</h4>
-
+<h4>Exercise 3 - private</h4>
 <?php
 class Beverage
 {
     //properties
-    public $color;
-    public $price;
-    public $temperature;
+    private string $color;
+    private $price;
+    private string $temperature;
 
     // constructor 
     public function __construct($color, $price, $temperature = "cold")
@@ -39,19 +37,11 @@ class Beverage
         echo "This beverage is $this->temperature and $this->color.";
     }
 }
-//instantiating new object
-$cola = new Beverage("black", "2€", "cold");
-$cola->getInfo();
-echo "<br>" . "This beverage is $cola->temperature.";
-?>
 
-<h4>Exercise 2 - extending</h4>
-
-<?php
 class Beer extends Beverage
 {
-    public $name;
-    public $alcoholPercentage;
+    private $name;
+    private $alcoholPercentage;
 
     public function __construct($name, $alcoholPercentage, $color, $price, $temperature = "cold")
     {
@@ -61,14 +51,20 @@ class Beer extends Beverage
     }
     public function getAlcoholPercentage()
     {
-        echo "This alcohol have a percentage of $this->alcoholPercentage->.";
-    }   
+        echo "This alcohol have a percentage of $this->alcoholPercentage.";
+    }
+    public function beerInfo()
+    {
+        echo "Hi I'm Duvel and have an alcochol percentage of $this->alcoholPercentage and I have a $this->color color";
+    }
 }
 $duvel = new Beer("Duvel", "8.5%", "blond", "3.5€", "cold");
 $duvel->getAlcoholPercentage();
-echo "<br>" . "This beer color is $duvel->color" . "<br>";
+$duvel->color = "light";
+echo "<br>" . "This beer color is $duvel->color";
+echo "<br>" . $duvel->color . "<br>";
 $duvel->getInfo();
 ?>
-
 <br>
-<a href="/index.php">➜ Back to homepage</a>
+<br>
+<a href="/variable/OOP.php">➜ Back to OOP</a>

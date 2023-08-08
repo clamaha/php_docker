@@ -40,12 +40,6 @@ declare(strict_types=1);
         <a onMouseOver="style.color='darkgrey'" onMouseOut="style.color='black'" href="/variable/get_post.php">GET - POST</a>
     </li>
     <li>
-        <a onMouseOver="style.color='darkgrey'" onMouseOut="style.color='black'" href="/variable/oop_1.php">OOP - basics</a>
-    </li>
-    <li>
-        <a onMouseOver="style.color='darkgrey'" onMouseOut="style.color='black'" href="/variable/oop_2.php">OOP - 2</a>
-    </li>
-    <li>
-        <a onMouseOver="style.color='darkgrey'" onMouseOut="style.color='black'" href="/variable/oop_3.php">OOP - 3</a>
+        <a onMouseOver="style.color='darkgrey'" onMouseOut="style.color='black'" href="/variable/OOP.php">OOP</a>
     </li>
 </ol>

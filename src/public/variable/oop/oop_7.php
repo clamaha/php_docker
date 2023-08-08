@@ -4,8 +4,8 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 ?>
 
-<title>OOP - 2</title>
-<h1>OOP - 2</h1>
+<title>OOP - 7</title>
+<h1>OOP</h1>
 <style>
     a {
         text-decoration: none;
@@ -14,6 +14,10 @@ error_reporting(E_ALL);
         color: darkgrey;
     }
 </style>
+<h4>Exercise 7 - static</h4>
 
+<?php
+
+?>
 <br>
-<a href="/index.php">➜ Back to homepage</a>
+<a href="/variable/OOP.php">➜ Back to OOP</a>
