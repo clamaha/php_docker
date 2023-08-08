@@ -61,6 +61,7 @@ error_reporting(E_ALL);
         echo "I am learning" . " " . $lang;
     }
     ?>
+    
 <br>
 <a href="/index.php">➜ Back to homepage</a>
 </body>
