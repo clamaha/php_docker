@@ -18,6 +18,12 @@ error_reporting(E_ALL);
 <h4>Exercise 5 - public</h4>
 
 <?php
+/*
+Copy the class of exercise 1.
+TODO: Change the properties to private.
+TODO: Fix the errors without using getter and setter functions.
+TODO: Change the price to 3.5 euro and print it also on the screen on a new line.
+*/
     class Beverage
 {
     //properties
@@ -43,16 +49,6 @@ error_reporting(E_ALL);
 $cola = new Beverage("black", "2€", "cold");
 $cola->getInfo();
 echo "<br>" . "This beverage is $cola->temperature.";
-$cola->price = ""
-
-    /* EXERCISE 5
-
-Copy the class of exercise 1.
-
-TODO: Change the properties to private.
-TODO: Fix the errors without using getter and setter functions.
-TODO: Change the price to 3.5 euro and print it also on the screen on a new line.
-*/
 ?>
 <br>
 <a href="/variable/OOP.php">➜ Back to OOP</a>
